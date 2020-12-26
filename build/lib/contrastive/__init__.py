@@ -1,6 +1,7 @@
 ### Dependencies are:
 # numpy - for matrix manipulation
 # sklearn - for implementing spectral clustering and standard PCA
+# pandas - to check type of dataframes and convert to numpy arrays in method cpca_alpha
 ###
 
 from __future__ import print_function
@@ -8,6 +9,7 @@ import numpy as np
 from numpy import linalg as LA
 from sklearn import cluster
 from sklearn.decomposition import PCA
+import pandas as pd
 
 class CPCA(object):
     """
